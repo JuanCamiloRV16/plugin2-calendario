@@ -1,0 +1,1 @@
+!function(){"use strict";tinymce.PluginManager.add("calendario",function(t,n){t.ui.registry.addButton("calendario",{text:"Calendario",onAction:function(){t.setContent('<label for="start">Fecha de inicio: </label><input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">')}})})}();
